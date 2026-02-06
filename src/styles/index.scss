@@ -1,4 +1,6 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
@@ -8,3 +10,4 @@ body {
 @import 'variables';
 @import 'blocks/header';
 @import 'blocks/cards';
+@import 'blocks/stars';
